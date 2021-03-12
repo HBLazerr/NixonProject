@@ -1,0 +1,67 @@
+*, *::after, *::before{
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('media/Vote\ Cursor.png'), pointer;}
+
+html{
+    background: ivory;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    margin: auto;
+    background: rgb(255, 19, 19);
+    color: #303ca3;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    letter-spacing: 3.4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#vote p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+#vote{
+    display: grid;
+    justify-content: center;
+    padding-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+#georgeButton{
+    position: absolute;
+    width: 409.63px;
+    top: 205px;
+    left: 555.63px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+#vote button{
+    padding: 10px 3px 10px 3px;
+    background-color:#303ca3;
+    color: rgb(255, 19, 19);
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#here {
+    display: block;
+    justify-content: center;
+    padding-top: 150px;
+    color: red;
+    border: #303ca3;
+}

@@ -1,0 +1,41 @@
+*, *::after, *::before {
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('media/Vote\ Cursor.png'), pointer;}
+
+html {
+    background: ivory;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    margin: auto;
+    background: rgb(255, 19, 19);
+    color: #303ca3;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    letter-spacing: 3.4px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#thankYou {
+    display: grid;
+    justify-content: center;
+    padding-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nixonPicture {
+    display: grid;
+    border: 10px solid #303ca3;
+    border-radius: 4px;
+    margin-top: 20px;
+    width: 700px;
+    height: 466px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
